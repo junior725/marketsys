@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:marketsys/pages/login/login.bindings.dart';
 import 'package:marketsys/pages/login/login.dart';
-import 'package:marketsys/pages/new_notify/newnotify.dart';
 
 class MarketSystem extends StatelessWidget {
   const MarketSystem({super.key});
@@ -16,7 +15,7 @@ class MarketSystem extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.indigo
       ),
-      home: const NewNotify(),
+      home: const Login(),
     );
   }
 }
